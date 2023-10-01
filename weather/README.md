@@ -15,5 +15,9 @@ http://www.recfor.net/projects/weather/osaka.php
 そのほかの都市の天気予報を使いたい場合、別途accuweather.comのアカウントを作成して、以下の例の様なURLを用いてください。ただし、「xxxxx」は都市番号、「yyyyy」はユーザー別のトークン文字列です。  
 https://dataservice.accuweather.com/forecasts/v1/daily/5day/xxxxx?apikey=yyyyy
 
+## Schematic
+MachiKania 本体以外に追加する回路の回路図は、下の通りです。なお、液晶ディスプレイは必須ではありませんが、MMC/SDカードは必須です。
+![schematic.png](documents/shematic.png)
+
 ## Licenses
 .BASファイルのライセンスは、パブリックドメインです。.wavファイルのライセンスは、格納ディレクトリーの記述を参考にしてください。  
