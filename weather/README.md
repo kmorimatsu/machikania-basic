@@ -10,8 +10,8 @@ OSAKA.BAS: 今日の日付と大阪の天気予報と気温予報を英語で案
 
 ## Weather forecast
 このソフトウェアは、accuweather.comのサービスの、5日間の天気予報を使用しています。次の2つのwebページは、accuweather.comから得たデーターをキャッシュしたものです。  
-http://www.recfor.net/projects/weather/tokyo.php  
-http://www.recfor.net/projects/weather/osaka.php  
+https://www.rad51.net/projects/weather/tokyo.php  
+https://www.rad51.net/projects/weather/osaka.php  
 そのほかの都市の天気予報を使いたい場合、別途accuweather.comのアカウントを作成して、以下の例の様なURLを用いてください。ただし、「xxxxx」は都市番号、「yyyyy」はユーザー別のトークン文字列です。  
 https://dataservice.accuweather.com/forecasts/v1/daily/5day/xxxxx?apikey=yyyyy
 

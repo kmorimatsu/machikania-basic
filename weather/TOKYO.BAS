@@ -6,7 +6,7 @@ out 6,1
 
 if val(strftime$("%Y"))<2023 then ntp
 
-j$=WGET::FORSTRING$("http://www.recfor.net/projects/weather/tokyo.php")
+j$=WGET::FORSTRING$("https://www.rad51.net/projects/weather/tokyo.php")
 o=new(JSON,j$)
 
 Min0=int(o.FQUERY#(".DailyForecasts[0].Temperature.Minimum.Value")+0.5)
